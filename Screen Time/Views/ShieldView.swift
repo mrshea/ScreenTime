@@ -49,7 +49,7 @@ private extension ShieldView {
 // MARK: Internals
 private extension ShieldView {
     func onPressSelect() {
-        logger.debug("Configuration button pressed.")
+        logger.debug("Configuration button pressed. Adding in")
         showActivityPicker = true
     }
     
